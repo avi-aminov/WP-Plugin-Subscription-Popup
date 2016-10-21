@@ -1,0 +1,115 @@
+/*#subscription-popup-wrap{
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999999;
+}
+
+#subscription-popup{
+    background: #eee;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 482px;
+    height: 240px;
+    top: 0;
+    bottom: 0;
+}
+
+#subscription-popup .popup-body{
+    background: #c03c0c;
+    height: 165px;
+
+}
+
+#subscription-popup .popup-form{
+    background: #fd6421;
+    height: 75px;
+}*/
+
+
+#subscription-popup-wrap {
+    width: 600px;
+    min-height: 320px;
+    margin: calc(50vh - 160px) auto;
+    background: #f0f0f0;
+    box-shadow: 0 0 60px -15px #323232;
+    overflow: hidden;
+    border-radius: 10px;
+    position: fixed;
+    transition: all 1s;
+    max-width: calc(100vw - 40px);
+    top: 15%;
+    z-index: 99999999;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    padding-bottom: 20px;
+    display: none;
+}
+
+#subscription-popup-wrap:before {
+    height: 20px;
+    background-image: linear-gradient(20deg, #519dda 50%, #dcdcdc 50%);
+    background-size: 50px;
+    background-repeat: repeat;
+    display: block;
+    content: '';
+    -webkit-transform: skewX(-30deg) scaleX(1.05);
+}
+
+#subscription-popup-wrap button {
+    font-size: 18px;
+    padding: 8px 8px 6px;
+    color: #3cb371;
+    font-weight: 700;
+    cursor: pointer;
+    border: 2px solid #3cb371;
+    background: none;
+}
+
+#subscription-popup-wrap button:hover {
+    color: #fff;
+    background: #3cb371
+}
+
+#subscription-popup-wrap input {
+    font-size: 15px;
+    padding: 10px 11px 8px;
+    color: #3cb371;
+    font-weight: 700;
+    border: 2px solid #3cb371;
+    background: none;
+    margin-right: 6px;
+    width: 200px;
+    outline: none;
+}
+
+#subscription-popup-wrap #subscription-popup-close {
+    position: absolute;
+    right: 17px;
+    font-size: 16px;
+    top: -1px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#subscription-popup-wrap span {
+    position: absolute;
+    top: 90px;
+    text-align: center;
+    font-size: 44px;
+    display: block;
+    color: #3cb371;
+    padding: 15px 47px 0;
+    border-radius: 50%;
+    width: calc(100% - 94px);
+    opacity: 0;
+    pointer-events: none;
+}
