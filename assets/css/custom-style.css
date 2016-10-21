@@ -40,7 +40,7 @@
     background: #f0f0f0;
     box-shadow: 0 0 60px -15px #323232;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 7px;
     position: fixed;
     transition: all 1s;
     max-width: calc(100vw - 40px);
@@ -67,24 +67,24 @@
 #subscription-popup-wrap button {
     font-size: 18px;
     padding: 8px 8px 6px;
-    color: #3cb371;
+    color: #519dda ;
     font-weight: 700;
     cursor: pointer;
-    border: 2px solid #3cb371;
+    border: 2px solid #519dda ;
     background: none;
 }
 
 #subscription-popup-wrap button:hover {
     color: #fff;
-    background: #3cb371
+    background: #519dda;
 }
 
 #subscription-popup-wrap input {
     font-size: 15px;
     padding: 10px 11px 8px;
-    color: #3cb371;
+    color: #519dda;
     font-weight: 700;
-    border: 2px solid #3cb371;
+    border: 2px solid #519dda;
     background: none;
     margin-right: 6px;
     width: 200px;
@@ -100,16 +100,11 @@
     cursor: pointer;
 }
 
-#subscription-popup-wrap span {
-    position: absolute;
-    top: 90px;
-    text-align: center;
-    font-size: 44px;
-    display: block;
-    color: #3cb371;
-    padding: 15px 47px 0;
-    border-radius: 50%;
-    width: calc(100% - 94px);
-    opacity: 0;
-    pointer-events: none;
+#subscription-popup-wrap .subscription-popup-success-message {
+    margin: 15px 0px 0px 0px;
+    display: block
+}
+
+#subscription-popup-value.email-error{
+    border: 2px solid red;
 }
