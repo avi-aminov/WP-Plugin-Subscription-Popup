@@ -1,7 +1,7 @@
 # WP-Plugin-Subscription-Popup
 Subscription Popup Simple WP Plugin
 
-ver 1.0.0
+Version: 1.0
 
 <b>Shortcode Examples</b>
 
