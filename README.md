@@ -3,7 +3,7 @@ Subscription Popup Simple WP Plugin
 
 ver 1.0.0
 
-Shortcode Examples
+<b>Shortcode Examples</b>
 
 <pre>
  [subscription-popup 
